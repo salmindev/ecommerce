@@ -27,7 +27,7 @@ const Cart = ({cart, setCart, handleChange}) => {
         <div className='row'>
           <div className='col-7'>  
           <p className='fs-3 py-3  border-light  border-bottom '><span><i class="bi bi-chevron-left"></i></span> Shopping Continue</p>
-          <p className='fs-4 '>You have item on your cart</p>
+          <p className='fs-4 '>You have item on your Cart</p>
         {
             cart?.map((item)=>(
                 
