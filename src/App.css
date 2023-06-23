@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +29,27 @@
 .App-link {
   color: #61dafb;
 }
-
+.total{
+  background-image: linear-gradient(rgba(130, 17, 236, 0.685), rgb(179, 91, 197));
+  border-radius: 40px;
+}
+.nav__bar{
+     list-style: none;    
+}
+.nav__bar a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.card{
+  width: 350px;
+  height: 450px;
+}
+.card img
+{
+   width: 300px;
+   height: 250px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +57,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.product-details {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+.product-details.show {
+  display: block;
 }
